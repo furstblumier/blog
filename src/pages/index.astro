@@ -1,0 +1,21 @@
+---
+import MainLayout from "../layouts/MainLayout.astro";
+import { SITE_TITLE, SITE_DESCRIPTION } from "../config";
+import FeaturedPosts from "../components/FeaturedPosts.astro";
+import RecentPosts from "../components/RecentPosts.astro";
+---
+
+<MainLayout title={SITE_TITLE} description={SITE_DESCRIPTION}>
+  <div class="py-6">
+    <div class="text-4xl max-w-lg font-medium py-16">
+      <h1
+        class="bg-gradient-to-r from-slate-100 to-slate-400 inline-block text-transparent bg-clip-text"
+      >
+        {SITE_TITLE} - {SITE_DESCRIPTION}
+      </h1>
+    </div>
+    <FeaturedPosts />
+    <div class="border-t border-zinc-800 my-12"></div>
+    <RecentPosts />
+  </div>
+</MainLayout>
