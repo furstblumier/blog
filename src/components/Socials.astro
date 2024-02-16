@@ -10,6 +10,7 @@ import socialicons from "../socialicons";
         href={social.href}
         aria-label={social.linkTitle}
         title={social.linkTitle}
+        target="_blank"
       >
         <Fragment set:html={socialicons[social.name]} />
         <span class="sr-only">{social.linkTitle}</span>
