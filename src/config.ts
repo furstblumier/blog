@@ -26,7 +26,7 @@ export const SOCIALS: Socials = [
   // },
   {
     name: "Twitter",
-    href: "https://github.com/furstblumier",
+    href: "https://twitter.com/furstblumier",
     linkTitle: `My Twitter`,
     active: true,
   },
