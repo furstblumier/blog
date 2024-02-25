@@ -1,6 +1,7 @@
 # Blog
 
 [![Built with Astro](https://astro.badg.es/v1/built-with-astro/tiny.svg)](https://astro.build)
+
 My personal blog is based on [verve](https://github.com/aryanjha256/verve).
 
 ## 🚀 Project Structure
