@@ -18,10 +18,12 @@ const { title, description, image = "/logo.gif" } = Astro.props;
   content="index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
 />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="apple-touch-icon" type="image/png" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="android-chrome-icon" type="image/png" sizes="192x192" href="/android-chrome-192x192.png">
+<link rel="android-chrome-icon" type="image/png" sizes="512x512" href="/android-chrome-512x512.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest">
+<link rel="manifest" href="/site.webmanifest" crossorigin="anonymous" />
 <meta name="generator" content={Astro.generator} />
 
 <!-- Canonical URL -->
@@ -45,5 +47,6 @@ const { title, description, image = "/logo.gif" } = Astro.props;
 <meta property="twitter:title" content={title} />
 <meta property="twitter:description" content={description} />
 <meta property="twitter:image" content={new URL(image, Astro.url)} />
+
 <!-- Analytics stuff -->
 <script defer src="https://cloud.umami.is/script.js" data-website-id="dbbe2ace-c0ec-4e25-bbe7-ea70cf6f5129"></script>

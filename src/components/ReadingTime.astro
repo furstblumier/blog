@@ -1,0 +1,24 @@
+---
+interface Props {
+   content: string 
+}
+
+const { content } = Astro.props
+
+const WORDS_PER_MINUTE = 200;
+
+function getReadingTime(content: string) {
+  if (!content) return [0, "0 min read"];
+  // https://stackoverflow.com/questions/69436626/regex-to-replace-markdown-characters-not-inside-backticks
+  const regex = /(`(?:``)?).*?\1|[\\*_{}[\]()#+\-.!|`]/g;
+  const clean = content.replace(regex, '');
+  const numberOfWords = clean.split(/\s+/g).length;  
+  const amount = Math.ceil(numberOfWords / WORDS_PER_MINUTE);
+  return [numberOfWords, `${amount} min read`];
+}
+---
+<p class="font-light text-sm text-dark-gray-500">
+  {
+    getReadingTime(content)[1]
+  }
+</p>

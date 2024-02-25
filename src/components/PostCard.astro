@@ -1,14 +1,16 @@
 ---
 import FormattedDate from "./FormattedDate.astro";
+import ReadingTime from "./ReadingTime.astro"
 
 interface Props {
   title: string;
   desc: string;
   href: string;
   pubDate: Date;
+  content: string;
 }
 
-const { href, title, desc, pubDate } = Astro.props;
+const { href, title, desc, pubDate, content } = Astro.props;
 ---
 
 <li class="py-6">
@@ -20,7 +22,8 @@ const { href, title, desc, pubDate } = Astro.props;
         </div>
         <h2 transition:name={title}>{title}</h2>
       </div>
-      <p class="font-light text-slate-300">{desc}</p>
+      <p class="font-light text-dark-gray-200">{desc}</p>
+      <ReadingTime content={content} />
     </div>
   </a>
 </li>

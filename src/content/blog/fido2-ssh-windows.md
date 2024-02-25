@@ -1,5 +1,5 @@
 ---
-title: "FIDO2/U2F based ssh keys on windows 11"
+title: "FIDO2/U2F based ssh-keys on Windows 11"
 description: "How to create and use FIDO2 based ssh-keys on Windows"
 pubDate: "Feb 17 2024"
 featured: true

@@ -1,4 +1,4 @@
-import type { Socials } from "./types";
+import type { Socials,Quotes } from "./types";
 
 export const SITE_URL = "https://blog.furst.blue"; // Replace with your site url
 export const SITE_TITLE = "Fürst's Blog :3";
@@ -43,3 +43,10 @@ export const SOCIALS: Socials = [
     active: false,
   },
 ];
+
+export const QUOTES: Quotes = [
+  "OwO? What's this?",
+  "*notices your error log*",
+  "Bwark bwark bwark (\\'ω'/)",
+  "I made the fatal error of working on a part of it,\n so now I own the whole thing.",
+]
