@@ -42,7 +42,7 @@ If you pick one of the FIDO2 PIN variants, make sure to set this PIN first via t
 ssh-keygen -t ed25519-sk -O resident -O verify-required -O application=ssh:YourTextHere
 ```
 the `-O application=ssh:YourTextHere` bit is to give you the possibility to tag the key in some way, to know which key is for what. For example `-O application=ssh:Github`.
-Afterwards a few windows will pop open which you will have to answer with "ok". If you enabled the PIN based verfication, you will also be prompted to enter the PIN. Afterwards you get the usual questions about where to save your key and if you want to password protect the key itself too. Et voilà, you are done! You should now have an `id_ed25519_sk` and `id_ed25519_sk.pub` file in your .ssh folder (or wherever you put it). These can now be used like normal ssh-keys.
+Afterwards a few windows will pop open which you will have to answer with "ok". If you enabled the PIN based verification, you will also be prompted to enter the PIN. Afterwards you get the usual questions about where to save your key and if you want to password protect the key itself too. Et voilà, you are done! You should now have an `id_ed25519_sk` and `id_ed25519_sk.pub` file in your .ssh folder (or wherever you put it). These can now be used like normal ssh-keys.
 
 ## Sources
 * https://developers.yubico.com/SSH/Securing_SSH_with_FIDO2.html

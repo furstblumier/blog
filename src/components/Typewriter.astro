@@ -6,7 +6,7 @@ interface Props {
 const { quote } = Astro.props;
 ---
 
-<p class="pr-[25%]">
+<p class="pr-[25%] hidden md:block">
   <span class="font-mono text-md type inline" style={"--n:" + (quote ? quote.length : 11)}>
     {quote || "Placeholder"}
   </span>

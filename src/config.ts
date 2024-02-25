@@ -47,6 +47,6 @@ export const SOCIALS: Socials = [
 export const QUOTES: Quotes = [
   "OwO? What's this?",
   "*notices your error log*",
-  "Bwark bwark bwark (\\'ω'/)",
+  "Bwark bwark bwark (\\('ω')/)",
   "I made the fatal error of working on a part of it,\n so now I own the whole thing.",
 ]
