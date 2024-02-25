@@ -1,35 +1,9 @@
-# Verve 🔥
+# Blog
 
-![Verve](public/vervetheme.png)
-
-Verve is a minimal blog theme for Astro.
-
-Verve follows best practices for a blog website.
-
-## 🎉 Features
-
-- Awesome Performance
-- SEO Optimized
-- Sitemap and RSS
+[![Built with Astro](https://astro.badg.es/v1/built-with-astro/tiny.svg)](https://astro.build)
+My personal blog is based on [verve](https://github.com/aryanjha256/verve).
 
 ## 🚀 Project Structure
-
-Inside of Verve, you'll see the following folders and files:
-
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── components/
-│   ├── content/
-│   │   └── blog/
-│   ├── layouts/
-│   ├── pages/
-│   │   └── index.astro
-│   └── config.ts
-└── package.json
-```
 
 Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
 
@@ -52,4 +26,4 @@ All commands are run from the root of the project, from a terminal:
 
 ## 📜 License
 
-**Verve** is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+**Verve** is licensed under the [MIT License](https://opensource.org/licenses/MIT), so this blog is as well.
