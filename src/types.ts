@@ -6,3 +6,5 @@ export type Socials = {
   active: boolean;
   linkTitle: string;
 }[];
+
+export type Quotes = string[]

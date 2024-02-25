@@ -1,5 +1,14 @@
 ---
 import { SITE_TITLE, SITE_LOGO } from "../config";
+import { Icon } from 'astro-icon/components'
+import Typewriter from './Typewriter.astro'
+
+interface Props {
+  quote?: string
+}
+
+const { quote } = Astro.props
+
 ---
 
 <header
@@ -7,24 +16,33 @@ import { SITE_TITLE, SITE_LOGO } from "../config";
 >
   {
     SITE_LOGO ? (
-      <img src={SITE_LOGO} alt={SITE_TITLE} class="w-30 h-30" />
+      <a href="/">
+        <div class="flex flex-row items-center max-w-1/2">
+          <img src={SITE_LOGO} alt={SITE_TITLE} class="w-30 h-30 pr-12" />
+          <Typewriter quote={quote}/>
+        </div>
+      </a>
     ) : (
-      <span class="text-xl font-bold">{SITE_TITLE}</span>
+      <div class="flex flex-row items-center">
+        <span class="text-xl font-bold">{SITE_TITLE}</span>
+      </div>
     )
-  }
+  }  
   <nav>
-    <ul class="flex items-center justify-center space-x-4">
+    <ul class="flex items-center justify-center space-x-4 text-dark-gray-500">
       <li>
-        <a href="/">Home</a>
+        <a class="hover:text-dark-gray-200" href="/">Home</a>
       </li>
       <li>
-        <a href="/blog">Posts</a>
+        <a class="hover:text-dark-gray-200" href="/blog">Posts</a>
       </li>
       <li>
-        <a href="https://furst.blue">Art Gallery</a>
+        <a class="hover:text-dark-gray-200" href="https://gallery.furst.blue">Gallery</a>
       </li>
       <li>
-        <a href='https://ko-fi.com/B0B71TINB' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi5.png?v=3' alt='Buy Me a Coffee at ko-fi.com' /></a>
+        <a href='https://ko-fi.com/B0B71TINB' target='_blank'>
+          <Icon class="size-6 md:size-8 ease-in-out hover:text-dark-gray-200 hover:scale-110" name="cib:ko-fi" />
+        </a>
       </li>
     </ul>
   </nav>

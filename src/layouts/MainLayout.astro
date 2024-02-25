@@ -1,6 +1,7 @@
 ---
-import "@fontsource-variable/rubik";
+import "@fontsource-variable/montserrat";
 import "../styles/base.css";
+import { QUOTES } from "../config";
 
 import BaseHead from "../components/BaseHead.astro";
 import Header from "../components/Header.astro";
@@ -11,9 +12,21 @@ interface Props {
   title: string;
   description: string;
   heroImage?: string;
+  quote?: string | number;
 }
 
-const { title, description, heroImage } = Astro.props;
+const { title, description, heroImage, quote } = Astro.props;
+
+function getQuotes(quote: Props["quote"]) {
+  let arrayQuote: string = ''
+  if (typeof quote === "number" && Number.isInteger(quote)) {
+    const i = quote % QUOTES.length
+    arrayQuote = QUOTES[i]
+    return arrayQuote
+  }
+  if (typeof quote === "string") { return quote}
+  return "Placeholder text";
+}
 ---
 
 <!doctype html>
@@ -22,8 +35,8 @@ const { title, description, heroImage } = Astro.props;
     <BaseHead {title} {description} image={heroImage} />
     <ViewTransitions />
   </head>
-  <body class="bg-[#242629] text-stone-200">
-    <Header />
+  <body class="bg-[#242629] text-dark-gray-200">
+    <Header quote={getQuotes(quote)} />
     <main class="max-w-5xl px-3 md:px-6 mx-auto">
       <slot />
     </main>

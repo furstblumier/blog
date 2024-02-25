@@ -1,9 +1,11 @@
 ---
 import { SOCIALS } from "../config";
 import socialicons from "../socialicons";
+import { Icon } from 'astro-icon/components'
+
 ---
 
-<div class="flex items-center justify-center space-x-2">
+<div class="flex items-center justify-center space-x-2 text-dark-gray-500">
   {
     SOCIALS.filter((social) => social.active).map((social) => (
       <a
@@ -12,7 +14,7 @@ import socialicons from "../socialicons";
         title={social.linkTitle}
         target="_blank"
       >
-        <Fragment set:html={socialicons[social.name]} />
+        <Icon class="size-6 md:size-8 ease-in-out hover:text-dark-gray-200 hover:scale-110" name={socialicons[social.name]} />
         <span class="sr-only">{social.linkTitle}</span>
       </a>
     ))

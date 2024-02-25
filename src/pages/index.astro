@@ -6,19 +6,19 @@ import RecentPosts from "../components/RecentPosts.astro";
 import AboutMe from "../components/AboutMe.astro";
 ---
 
-<MainLayout title={SITE_TITLE} description={SITE_DESCRIPTION}>
+<MainLayout title={SITE_TITLE} description={SITE_DESCRIPTION} quote={0}>
   <div class="py-6">
     <div class="text-4xl font-medium pb-16">
       <h1
-        class="bg-gradient-to-r from-slate-100 to-slate-400 inline-block text-transparent bg-clip-text"
+        class="bg-gradient-to-r from-dark-gray-200 to-dark-gray-500 inline-block text-transparent bg-clip-text"
       >
         {SITE_TITLE} - {SITE_DESCRIPTION}
       </h1>
     </div>
     <AboutMe />
-    <div class="border-t border-slate-400 my-12"></div>
+    <div class="border-t border-dark-gray-500 my-12"></div>
     <FeaturedPosts />
-    <div class="border-t border-slate-400 my-12"></div>
+    <div class="border-t border-dark-gray-500 my-12"></div>
     <RecentPosts />
   </div>
 </MainLayout>
