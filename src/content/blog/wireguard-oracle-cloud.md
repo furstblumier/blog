@@ -3,6 +3,7 @@ title: "Oracle Cloud + Wireguard VPN"
 description: "Using an Oracle Cloud compute node as Wireguard VPN target"
 pubDate: "Feb 25 2024"
 ---
+
 Like many, I also jumped on-board and got one of Oracle Cloud's [Ampere A1 flex instances](https://docs.oracle.com/en-us/iaas/Content/FreeTier/freetier_topic-Always_Free_Resources.htm#freetier_topic_Always_Free_Resources_Infrastructure) a while ago. The ability to split it up into e.g. 4 machines at no cost is pretty amazing, even if you hate Oracle. I used one machine standalone, while my other 3 formed a Kubernetes cluster, which might become a topic for another blog entry in the future. Anyway I'll skip out on how to setup your cloud instance and how to setup Wireguard. There are already a million guides out there for either topic.
 
 ## The setup

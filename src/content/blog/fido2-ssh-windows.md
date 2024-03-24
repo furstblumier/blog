@@ -2,8 +2,9 @@
 title: "FIDO2/U2F based ssh-keys on Windows 11"
 description: "How to create and use FIDO2 based ssh-keys on Windows"
 pubDate: "Feb 17 2024"
-featured: true
+featured: false
 ---
+
 Yubikeys are pretty great and I've seen a lot of people (either privately or professionally) use them for passwordless authentication and a bunch of other things. What's also kinda known is the possibility to use them for ssh via PIV. For that to work you usually have to implement some kind of bridge that exposes the key via PCKS11. One of the newer ways that also just works&trade; natively under Linux (or here, Windows) is FIDO2/U2F based authentication. Since I've seen very little about this topic, I wanted to share my experience.
 
 ## Installing ssh on windows
