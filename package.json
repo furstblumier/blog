@@ -19,7 +19,7 @@
     "@fontsource-variable/montserrat": "^5.0.18",
     "@iconify-json/cib": "^1.1.8",
     "@iconify-json/mdi": "^1.1.64",
-    "@types/react": "^18.2.66",
+    "@types/react": "^18.2.73",
     "@types/react-dom": "^18.2.22",
     "astro": "^4.5.12",
     "astro-icon": "^1.1.0",
