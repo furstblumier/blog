@@ -13,7 +13,7 @@ dependencies:
     version: 2.3.1(astro@4.7.0)
   '@astrojs/react':
     specifier: ^3.3.1
-    version: 3.3.1(@types/react-dom@18.2.25)(@types/react@18.3.1)(react-dom@18.2.0)(react@18.3.1)(vite@5.2.10)
+    version: 3.3.1(@types/react-dom@18.3.0)(@types/react@18.3.1)(react-dom@18.3.1)(react@18.3.1)(vite@5.2.10)
   '@astrojs/rss':
     specifier: ^4.0.5
     version: 4.0.5
@@ -36,8 +36,8 @@ dependencies:
     specifier: ^18.3.1
     version: 18.3.1
   '@types/react-dom':
-    specifier: ^18.2.25
-    version: 18.2.25
+    specifier: ^18.3.0
+    version: 18.3.0
   astro:
     specifier: ^4.7.0
     version: 4.7.0(typescript@5.4.5)
@@ -51,8 +51,8 @@ dependencies:
     specifier: ^18.3.1
     version: 18.3.1
   react-dom:
-    specifier: ^18.2.0
-    version: 18.2.0(react@18.3.1)
+    specifier: ^18.3.1
+    version: 18.3.1(react@18.3.1)
   sharp:
     specifier: ^0.33.3
     version: 0.33.3
@@ -212,7 +212,7 @@ packages:
       prismjs: 1.29.0
     dev: false
 
-  /@astrojs/react@3.3.1(@types/react-dom@18.2.25)(@types/react@18.3.1)(react-dom@18.2.0)(react@18.3.1)(vite@5.2.10):
+  /@astrojs/react@3.3.1(@types/react-dom@18.3.0)(@types/react@18.3.1)(react-dom@18.3.1)(react@18.3.1)(vite@5.2.10):
     resolution: {integrity: sha512-dwN6B+C0hQ1jpeQ5EckICpqv76t6RxEslldCP0UQ/ospolNk8GjqL11X/xQSbftiQvGWRMT0Tj5f0Xk17k5qJQ==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=21.0.0}
     peerDependencies:
@@ -222,10 +222,10 @@ packages:
       react-dom: ^17.0.2 || ^18.0.0
     dependencies:
       '@types/react': 18.3.1
-      '@types/react-dom': 18.2.25
+      '@types/react-dom': 18.3.0
       '@vitejs/plugin-react': 4.2.1(vite@5.2.10)
       react: 18.3.1
-      react-dom: 18.2.0(react@18.3.1)
+      react-dom: 18.3.1(react@18.3.1)
       ultrahtml: 1.5.3
     transitivePeerDependencies:
       - supports-color
@@ -1333,8 +1333,8 @@ packages:
     resolution: {integrity: sha512-ga8y9v9uyeiLdpKddhxYQkxNDrfvuPrlFb0N1qnZZByvcElJaXthF1UhvCh9TLWJBEHeNtdnbysW7Y6Uq8CVng==}
     dev: false
 
-  /@types/react-dom@18.2.25:
-    resolution: {integrity: sha512-o/V48vf4MQh7juIKZU2QGDfli6p1+OOi5oXx36Hffpc9adsHeXjVp8rHuPkjd8VT8sOJ2Zp05HR7CdpGTIUFUA==}
+  /@types/react-dom@18.3.0:
+    resolution: {integrity: sha512-EhwApuTmMBmXuFOikhQLIBUn6uFg81SwLMOAUgodJF14SOBOCMdU04gDoYi0WOJJHD144TL32z4yDqCW3dnkQg==}
     dependencies:
       '@types/react': 18.3.1
     dev: false
@@ -4005,14 +4005,14 @@ packages:
   /queue-microtask@1.2.3:
     resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==}
 
-  /react-dom@18.2.0(react@18.3.1):
-    resolution: {integrity: sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g==}
+  /react-dom@18.3.1(react@18.3.1):
+    resolution: {integrity: sha512-5m4nQKp+rZRb09LNH59GM4BxTh9251/ylbKIbpe7TpGxfJ+9kv6BLkLBXIjjspbgbnIBNqlI23tRnTWT0snUIw==}
     peerDependencies:
-      react: ^18.2.0
+      react: ^18.3.1
     dependencies:
       loose-envify: 1.4.0
       react: 18.3.1
-      scheduler: 0.23.0
+      scheduler: 0.23.2
     dev: false
 
   /react-refresh@0.14.0:
@@ -4230,8 +4230,8 @@ packages:
     resolution: {integrity: sha512-0s+oAmw9zLl1V1cS9BtZN7JAd0cW5e0QH4W3LWEK6a4LaLEA2OTpGYWDY+6XasBLtz6wkm3u1xRw95mRuJ59WA==}
     dev: false
 
-  /scheduler@0.23.0:
-    resolution: {integrity: sha512-CtuThmgHNg7zIZWAXi3AsyIzA3n4xx7aNyjwC2VJldO2LMVDhFK+63xGqq6CsJH4rTAt6/M+N4GhZiDYPx9eUw==}
+  /scheduler@0.23.2:
+    resolution: {integrity: sha512-UOShsPwz7NrMUqhR6t0hWjFduvOzbtv7toDH1/hIrfRNIDBnnBWd0CwJTGvTpngVlmwGCdP9/Zl/tVrDqcuYzQ==}
     dependencies:
       loose-envify: 1.4.0
     dev: false
