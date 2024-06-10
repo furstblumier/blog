@@ -9,8 +9,8 @@ dependencies:
     specifier: ^0.7.0
     version: 0.7.0(typescript@5.4.5)
   '@astrojs/mdx':
-    specifier: ^3.0.1
-    version: 3.0.1(astro@4.10.1)
+    specifier: ^3.1.0
+    version: 3.1.0(astro@4.10.1)
   '@astrojs/react':
     specifier: ^3.4.0
     version: 3.4.0(@types/react-dom@18.3.0)(@types/react@18.3.3)(react-dom@18.3.1)(react@18.3.1)(vite@5.2.13)
@@ -165,7 +165,7 @@ packages:
       remark-parse: 11.0.0
       remark-rehype: 11.1.0
       remark-smartypants: 2.1.0
-      shiki: 1.5.1
+      shiki: 1.6.3
       unified: 11.0.4
       unist-util-remove-position: 5.0.0
       unist-util-visit: 5.0.0
@@ -175,8 +175,8 @@ packages:
       - supports-color
     dev: false
 
-  /@astrojs/mdx@3.0.1(astro@4.10.1):
-    resolution: {integrity: sha512-UcPja14Qt6OEm7Wjak41Qa5f7G1M0oB2ARCsyIkXy6+Z65fJ6c1648UqEOqnEgR6Xtqq+V47wtK2qSP6KQKrAg==}
+  /@astrojs/mdx@3.1.0(astro@4.10.1):
+    resolution: {integrity: sha512-yuGDaOcCAfYgLQvUAlJDezYGK4twHlzW1Kvpyg3inxtDJuAsHdyVyYLWl0Wo5nwkyrbZktdrjnoW5scqzoAqAg==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=21.0.0}
     peerDependencies:
       astro: ^4.8.0
@@ -185,7 +185,7 @@ packages:
       '@mdx-js/mdx': 3.0.1
       acorn: 8.11.3
       astro: 4.10.1(typescript@5.4.5)
-      es-module-lexer: 1.5.2
+      es-module-lexer: 1.5.3
       estree-util-visit: 2.0.0
       github-slugger: 2.0.0
       gray-matter: 4.0.3
@@ -1652,10 +1652,6 @@ packages:
     dev: false
     optional: true
 
-  /@shikijs/core@1.5.1:
-    resolution: {integrity: sha512-xjV63pRUBvxA1LsxOUhRKLPh0uUjwBLzAKLdEuYSLIylo71sYuwDcttqNP01Ib1TZlLfO840CXHPlgUUsYFjzg==}
-    dev: false
-
   /@shikijs/core@1.6.3:
     resolution: {integrity: sha512-QnJKHFUW95GnlJLJGP6QLx4M69HM0KlXk+R2Y8lr/x4nAx1Yb/lsuxq4XwybuUjTxbJk+BT0g/kvn0bcsjGGHg==}
     dev: false
@@ -2549,10 +2545,6 @@ packages:
   /entities@4.5.0:
     resolution: {integrity: sha512-V0hjH4dGPh9Ao5p0MoRY6BVqtwCjhz6vI5LT8AJ55H+4g9/4vbHx1I54fS0XuclLhDHArPQCiMjDxjaL8fPxhw==}
     engines: {node: '>=0.12'}
-    dev: false
-
-  /es-module-lexer@1.5.2:
-    resolution: {integrity: sha512-l60ETUTmLqbVbVHv1J4/qj+M8nq7AwMzEcg3kmJDt9dCNrTk+yHcYFf/Kw75pMDwd9mPcIGCG5LcS20SxYRzFA==}
     dev: false
 
   /es-module-lexer@1.5.3:
@@ -4799,12 +4791,6 @@ packages:
   /shebang-regex@3.0.0:
     resolution: {integrity: sha512-7++dFhtcx3353uBaq8DDR4NuxBetBzC7ZQOhmTQInHEd6bSrXdiEyzCvG07Z44UYdLShWUyXt5M/yhz8ekcb1A==}
     engines: {node: '>=8'}
-
-  /shiki@1.5.1:
-    resolution: {integrity: sha512-vx4Ds3M3B9ZEmLeSXqBAB85osBWV8ErZfP69kuFQZozPgHc33m7spLTCUkcjwEjFm3gk3F9IdXMv8kX+v9xDHA==}
-    dependencies:
-      '@shikijs/core': 1.5.1
-    dev: false
 
   /shiki@1.6.3:
     resolution: {integrity: sha512-lE1/YGlzFY0hQSyEfsZj18xGrTWxyhFQkaiILALqTBZPbJeYFWpbUhlmTGPOupYB/qC+H6sV4UznJzcEh3WMHQ==}
