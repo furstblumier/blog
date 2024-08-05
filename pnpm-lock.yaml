@@ -30,8 +30,8 @@ importers:
         specifier: ^5.0.19
         version: 5.0.19
       '@iconify-json/cib':
-        specifier: ^1.1.9
-        version: 1.1.9
+        specifier: ^1.1.10
+        version: 1.1.10
       '@iconify-json/mdi':
         specifier: ^1.1.68
         version: 1.1.68
@@ -435,8 +435,8 @@ packages:
   '@fontsource-variable/montserrat@5.0.19':
     resolution: {integrity: sha512-vOlVjdGock2yBOeBbg5qexPa1TJM/PS8Nx9YlF6DFEtFf/Y5ayDbZRvV/WPj8W2vk7/aDxUEtTAp/Qp8wK9hNQ==}
 
-  '@iconify-json/cib@1.1.9':
-    resolution: {integrity: sha512-6b6YfLmuLh03MJrq27IWxMQYq1Yxyotgmgv99RmC2xAnw9JmvPpaMx0zVtVHYorNRONxDGFZ+f5/gGIMg6ytig==}
+  '@iconify-json/cib@1.1.10':
+    resolution: {integrity: sha512-AisBsRyUDWOMv2M++O7h/9TFyNCqMBHUcmR5ARkZHi7xJHfLQvZ5qaFuSW3cQ9UYc+LXS+nK1QXWsiopxj16ug==}
 
   '@iconify-json/mdi@1.1.68':
     resolution: {integrity: sha512-7//TKCiXLU6kNWeOJRTBbisofVO7rF1sD1TZTL4/V9nqlmVNczQ5IOY0GgKOTsitkcTnX9GXgrgbjw3OI5B69w==}
@@ -3031,7 +3031,7 @@ snapshots:
 
   '@fontsource-variable/montserrat@5.0.19': {}
 
-  '@iconify-json/cib@1.1.9':
+  '@iconify-json/cib@1.1.10':
     dependencies:
       '@iconify/types': 2.0.0
 
