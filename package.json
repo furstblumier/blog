@@ -18,7 +18,7 @@
     "@astrojs/tailwind": "^5.1.4",
     "@fontsource-variable/montserrat": "^5.1.0",
     "@iconify-json/cib": "^1.2.2",
-    "@iconify-json/mdi": "^1.2.1",
+    "@iconify-json/mdi": "^1.2.2",
     "@types/react": "^19.0.1",
     "@types/react-dom": "^19.0.2",
     "astro": "^5.0.5",
