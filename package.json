@@ -21,7 +21,7 @@
     "@iconify-json/mdi": "^1.2.3",
     "@types/react": "^19.0.10",
     "@types/react-dom": "^19.0.4",
-    "astro": "^5.4.2",
+    "astro": "^5.5.2",
     "astro-icon": "^1.1.5",
     "fuse.js": "^7.1.0",
     "react": "^19.0.0",
