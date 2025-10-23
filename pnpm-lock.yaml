@@ -13,7 +13,7 @@ importers:
         version: 0.9.4(typescript@5.9.3)
       '@astrojs/mdx':
         specifier: ^4.2.6
-        version: 4.3.8(astro@5.15.0(@types/node@24.9.1)(jiti@1.21.7)(rollup@4.52.5)(typescript@5.9.3)(yaml@2.8.1))
+        version: 4.3.8(astro@5.15.1(@types/node@24.9.1)(jiti@1.21.7)(rollup@4.52.5)(typescript@5.9.3)(yaml@2.8.1))
       '@astrojs/react':
         specifier: ^4.2.7
         version: 4.4.0(@types/node@24.9.1)(@types/react-dom@19.2.2(@types/react@19.2.2))(@types/react@19.2.2)(jiti@1.21.7)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(yaml@2.8.1)
@@ -25,7 +25,7 @@ importers:
         version: 3.6.0
       '@astrojs/tailwind':
         specifier: ^6.0.2
-        version: 6.0.2(astro@5.15.0(@types/node@24.9.1)(jiti@1.21.7)(rollup@4.52.5)(typescript@5.9.3)(yaml@2.8.1))(tailwindcss@3.4.18(yaml@2.8.1))
+        version: 6.0.2(astro@5.15.1(@types/node@24.9.1)(jiti@1.21.7)(rollup@4.52.5)(typescript@5.9.3)(yaml@2.8.1))(tailwindcss@3.4.18(yaml@2.8.1))
       '@fontsource-variable/montserrat':
         specifier: ^5.2.5
         version: 5.2.8
@@ -43,7 +43,7 @@ importers:
         version: 19.2.2(@types/react@19.2.2)
       astro:
         specifier: ^5.7.12
-        version: 5.15.0(@types/node@24.9.1)(jiti@1.21.7)(rollup@4.52.5)(typescript@5.9.3)(yaml@2.8.1)
+        version: 5.15.1(@types/node@24.9.1)(jiti@1.21.7)(rollup@4.52.5)(typescript@5.9.3)(yaml@2.8.1)
       astro-icon:
         specifier: ^1.1.5
         version: 1.1.5
@@ -193,6 +193,10 @@ packages:
     resolution: {integrity: sha512-D2hP9eA+Sqx1kBZgzxZh0y1trbuU+JoDkiEwqhQ36nodYqJwyEIhPSdMNd7lOm/4io72luTPWH20Yda0xOuUow==}
     engines: {node: '>=6.9.0'}
 
+  '@babel/helper-validator-identifier@7.28.5':
+    resolution: {integrity: sha512-qSs4ifwzKJSV39ucNjsvc6WVHs6b7S03sOh2OcHF9UHfVPqWWALUsNUVzhSBiItjRZoLHx7nIarVjqKVusUZ1Q==}
+    engines: {node: '>=6.9.0'}
+
   '@babel/helper-validator-option@7.27.1':
     resolution: {integrity: sha512-YvjJow9FxbhFFKDSuFnVCe2WxXk1zWc22fFePVNEaWJEu8IrZVlda6N0uHwzZrUM1il7NC9Mlp4MaJYbYd9JSg==}
     engines: {node: '>=6.9.0'}
@@ -203,6 +207,11 @@ packages:
 
   '@babel/parser@7.28.4':
     resolution: {integrity: sha512-yZbBqeM6TkpP9du/I2pUZnJsRMGGvOuIrhjzC1AwHwW+6he4mni6Bp/m8ijn0iOuZuPI2BfkCoSRunpyjnrQKg==}
+    engines: {node: '>=6.0.0'}
+    hasBin: true
+
+  '@babel/parser@7.28.5':
+    resolution: {integrity: sha512-KKBU1VGYR7ORr3At5HAtUQ+TV3SzRCXmA/8OdDZiLDBIZxVyzXuztPjfLd3BV1PRAQGCMWWSHYhL0F8d5uHBDQ==}
     engines: {node: '>=6.0.0'}
     hasBin: true
 
@@ -228,6 +237,10 @@ packages:
 
   '@babel/types@7.28.4':
     resolution: {integrity: sha512-bkFqkLhh3pMBUQQkpVgWDWq/lqzc2678eUyDlTBhRqhCHFguYYGM0Efga7tYk4TogG/3x0EEl66/OQ+WGbWB/Q==}
+    engines: {node: '>=6.9.0'}
+
+  '@babel/types@7.28.5':
+    resolution: {integrity: sha512-qQ5m48eI/MFLQ5PxQj4PFaprjyCTLI37ElWMmNs0K8Lk3dVeOdNpB3ks8jc7yM5CDmVC73eMVk/trk3fgmrUpA==}
     engines: {node: '>=6.9.0'}
 
   '@capsizecss/unpack@3.0.0':
@@ -924,8 +937,8 @@ packages:
   astro-icon@1.1.5:
     resolution: {integrity: sha512-CJYS5nWOw9jz4RpGWmzNQY7D0y2ZZacH7atL2K9DeJXJVaz7/5WrxeyIxO8KASk1jCM96Q4LjRx/F3R+InjJrw==}
 
-  astro@5.15.0:
-    resolution: {integrity: sha512-hPfCc+5BoieeDuFLiGanLMeeFngOuKH/XqgQn4x2ZZW9klpb9PzI4PTuZb4siw5YhOFfeaeQAbgBgzhut8Kvfw==}
+  astro@5.15.1:
+    resolution: {integrity: sha512-VM679M1qxOjGo6q3vKYDNDddkALGgMopG93IwbEXd3Buc2xVLuuPj4HNziNugSbPQx5S6UReMp5uzw10EJN81A==}
     engines: {node: 18.20.8 || ^20.3.0 || >=22.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
 
@@ -2955,12 +2968,12 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@astrojs/mdx@4.3.8(astro@5.15.0(@types/node@24.9.1)(jiti@1.21.7)(rollup@4.52.5)(typescript@5.9.3)(yaml@2.8.1))':
+  '@astrojs/mdx@4.3.8(astro@5.15.1(@types/node@24.9.1)(jiti@1.21.7)(rollup@4.52.5)(typescript@5.9.3)(yaml@2.8.1))':
     dependencies:
       '@astrojs/markdown-remark': 6.3.8
       '@mdx-js/mdx': 3.1.1
       acorn: 8.15.0
-      astro: 5.15.0(@types/node@24.9.1)(jiti@1.21.7)(rollup@4.52.5)(typescript@5.9.3)(yaml@2.8.1)
+      astro: 5.15.1(@types/node@24.9.1)(jiti@1.21.7)(rollup@4.52.5)(typescript@5.9.3)(yaml@2.8.1)
       es-module-lexer: 1.7.0
       estree-util-visit: 2.0.0
       hast-util-to-html: 9.0.5
@@ -3012,9 +3025,9 @@ snapshots:
       stream-replace-string: 2.0.0
       zod: 3.25.76
 
-  '@astrojs/tailwind@6.0.2(astro@5.15.0(@types/node@24.9.1)(jiti@1.21.7)(rollup@4.52.5)(typescript@5.9.3)(yaml@2.8.1))(tailwindcss@3.4.18(yaml@2.8.1))':
+  '@astrojs/tailwind@6.0.2(astro@5.15.1(@types/node@24.9.1)(jiti@1.21.7)(rollup@4.52.5)(typescript@5.9.3)(yaml@2.8.1))(tailwindcss@3.4.18(yaml@2.8.1))':
     dependencies:
-      astro: 5.15.0(@types/node@24.9.1)(jiti@1.21.7)(rollup@4.52.5)(typescript@5.9.3)(yaml@2.8.1)
+      astro: 5.15.1(@types/node@24.9.1)(jiti@1.21.7)(rollup@4.52.5)(typescript@5.9.3)(yaml@2.8.1)
       autoprefixer: 10.4.21(postcss@8.5.6)
       postcss: 8.5.6
       postcss-load-config: 4.0.2(postcss@8.5.6)
@@ -3106,6 +3119,8 @@ snapshots:
 
   '@babel/helper-validator-identifier@7.27.1': {}
 
+  '@babel/helper-validator-identifier@7.28.5': {}
+
   '@babel/helper-validator-option@7.27.1': {}
 
   '@babel/helpers@7.28.4':
@@ -3116,6 +3131,10 @@ snapshots:
   '@babel/parser@7.28.4':
     dependencies:
       '@babel/types': 7.28.4
+
+  '@babel/parser@7.28.5':
+    dependencies:
+      '@babel/types': 7.28.5
 
   '@babel/plugin-transform-react-jsx-self@7.27.1(@babel/core@7.28.4)':
     dependencies:
@@ -3149,6 +3168,11 @@ snapshots:
     dependencies:
       '@babel/helper-string-parser': 7.27.1
       '@babel/helper-validator-identifier': 7.27.1
+
+  '@babel/types@7.28.5':
+    dependencies:
+      '@babel/helper-string-parser': 7.27.1
+      '@babel/helper-validator-identifier': 7.28.5
 
   '@capsizecss/unpack@3.0.0':
     dependencies:
@@ -3794,7 +3818,7 @@ snapshots:
       - debug
       - supports-color
 
-  astro@5.15.0(@types/node@24.9.1)(jiti@1.21.7)(rollup@4.52.5)(typescript@5.9.3)(yaml@2.8.1):
+  astro@5.15.1(@types/node@24.9.1)(jiti@1.21.7)(rollup@4.52.5)(typescript@5.9.3)(yaml@2.8.1):
     dependencies:
       '@astrojs/compiler': 2.13.0
       '@astrojs/internal-helpers': 0.7.4
@@ -4727,8 +4751,8 @@ snapshots:
 
   magicast@0.3.5:
     dependencies:
-      '@babel/parser': 7.28.4
-      '@babel/types': 7.28.4
+      '@babel/parser': 7.28.5
+      '@babel/types': 7.28.5
       source-map-js: 1.2.1
 
   markdown-extensions@2.0.0: {}
