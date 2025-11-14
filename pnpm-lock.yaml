@@ -13,7 +13,7 @@ importers:
         version: 0.9.5(prettier@3.6.2)(typescript@5.9.3)
       '@astrojs/mdx':
         specifier: ^4.2.6
-        version: 4.3.10(astro@5.15.6(@types/node@24.10.1)(jiti@1.21.7)(rollup@4.53.2)(typescript@5.9.3)(yaml@2.8.1))
+        version: 4.3.10(astro@5.15.7(@types/node@24.10.1)(jiti@1.21.7)(rollup@4.53.2)(typescript@5.9.3)(yaml@2.8.1))
       '@astrojs/react':
         specifier: ^4.2.7
         version: 4.4.2(@types/node@24.10.1)(@types/react-dom@19.2.3(@types/react@19.2.4))(@types/react@19.2.4)(jiti@1.21.7)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(yaml@2.8.1)
@@ -25,7 +25,7 @@ importers:
         version: 3.6.0
       '@astrojs/tailwind':
         specifier: ^6.0.2
-        version: 6.0.2(astro@5.15.6(@types/node@24.10.1)(jiti@1.21.7)(rollup@4.53.2)(typescript@5.9.3)(yaml@2.8.1))(tailwindcss@3.4.18(yaml@2.8.1))
+        version: 6.0.2(astro@5.15.7(@types/node@24.10.1)(jiti@1.21.7)(rollup@4.53.2)(typescript@5.9.3)(yaml@2.8.1))(tailwindcss@3.4.18(yaml@2.8.1))
       '@fontsource-variable/montserrat':
         specifier: ^5.2.5
         version: 5.2.8
@@ -43,7 +43,7 @@ importers:
         version: 19.2.3(@types/react@19.2.4)
       astro:
         specifier: ^5.7.12
-        version: 5.15.6(@types/node@24.10.1)(jiti@1.21.7)(rollup@4.53.2)(typescript@5.9.3)(yaml@2.8.1)
+        version: 5.15.7(@types/node@24.10.1)(jiti@1.21.7)(rollup@4.53.2)(typescript@5.9.3)(yaml@2.8.1)
       astro-icon:
         specifier: ^1.1.5
         version: 1.1.5
@@ -940,8 +940,8 @@ packages:
   astro-icon@1.1.5:
     resolution: {integrity: sha512-CJYS5nWOw9jz4RpGWmzNQY7D0y2ZZacH7atL2K9DeJXJVaz7/5WrxeyIxO8KASk1jCM96Q4LjRx/F3R+InjJrw==}
 
-  astro@5.15.6:
-    resolution: {integrity: sha512-luLcw+FGkeUHYTfbmYjIWHB4T0D+3VSjCy8DKTXglJ2O3lU40AbwmPVBcnqhRnA1SneKzP5V5pzqjsHzUZ1+Rg==}
+  astro@5.15.7:
+    resolution: {integrity: sha512-Zmw6otInhxcjoGcEyEN+wxgdiQERQOS3VzOmAKsDdKK8Fb4x1656r+9NtaTXCRZ0/fGtHjkSvkGUhZUJLXKfxQ==}
     engines: {node: 18.20.8 || ^20.3.0 || >=22.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
 
@@ -2918,12 +2918,12 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@astrojs/mdx@4.3.10(astro@5.15.6(@types/node@24.10.1)(jiti@1.21.7)(rollup@4.53.2)(typescript@5.9.3)(yaml@2.8.1))':
+  '@astrojs/mdx@4.3.10(astro@5.15.7(@types/node@24.10.1)(jiti@1.21.7)(rollup@4.53.2)(typescript@5.9.3)(yaml@2.8.1))':
     dependencies:
       '@astrojs/markdown-remark': 6.3.8
       '@mdx-js/mdx': 3.1.1
       acorn: 8.15.0
-      astro: 5.15.6(@types/node@24.10.1)(jiti@1.21.7)(rollup@4.53.2)(typescript@5.9.3)(yaml@2.8.1)
+      astro: 5.15.7(@types/node@24.10.1)(jiti@1.21.7)(rollup@4.53.2)(typescript@5.9.3)(yaml@2.8.1)
       es-module-lexer: 1.7.0
       estree-util-visit: 2.0.0
       hast-util-to-html: 9.0.5
@@ -2975,9 +2975,9 @@ snapshots:
       stream-replace-string: 2.0.0
       zod: 3.25.76
 
-  '@astrojs/tailwind@6.0.2(astro@5.15.6(@types/node@24.10.1)(jiti@1.21.7)(rollup@4.53.2)(typescript@5.9.3)(yaml@2.8.1))(tailwindcss@3.4.18(yaml@2.8.1))':
+  '@astrojs/tailwind@6.0.2(astro@5.15.7(@types/node@24.10.1)(jiti@1.21.7)(rollup@4.53.2)(typescript@5.9.3)(yaml@2.8.1))(tailwindcss@3.4.18(yaml@2.8.1))':
     dependencies:
-      astro: 5.15.6(@types/node@24.10.1)(jiti@1.21.7)(rollup@4.53.2)(typescript@5.9.3)(yaml@2.8.1)
+      astro: 5.15.7(@types/node@24.10.1)(jiti@1.21.7)(rollup@4.53.2)(typescript@5.9.3)(yaml@2.8.1)
       autoprefixer: 10.4.21(postcss@8.5.6)
       postcss: 8.5.6
       postcss-load-config: 4.0.2(postcss@8.5.6)
@@ -3764,7 +3764,7 @@ snapshots:
       - debug
       - supports-color
 
-  astro@5.15.6(@types/node@24.10.1)(jiti@1.21.7)(rollup@4.53.2)(typescript@5.9.3)(yaml@2.8.1):
+  astro@5.15.7(@types/node@24.10.1)(jiti@1.21.7)(rollup@4.53.2)(typescript@5.9.3)(yaml@2.8.1):
     dependencies:
       '@astrojs/compiler': 2.13.0
       '@astrojs/internal-helpers': 0.7.4
