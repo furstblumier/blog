@@ -1,3 +1,6 @@
+@import "tailwindcss";
+@config "../../tailwind.config.mjs";
+
 body {
   font-family: 'Montserrat Variable', sans-serif;
   overflow-y: scroll;

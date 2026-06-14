@@ -18,7 +18,7 @@ const { quote } = Astro.props
     SITE_LOGO ? (
       <a href="/">
         <div class="flex flex-row items-center max-w-1/2">
-          <img src={SITE_LOGO} alt={SITE_TITLE} class="w-30 h-30 pr-12" />
+          <img src={SITE_LOGO} alt={SITE_TITLE} class="w-[100px] h-[100px] object-contain mr-12" />
           <Typewriter quote={quote}/>
         </div>
       </a>
