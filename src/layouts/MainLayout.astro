@@ -6,7 +6,7 @@ import { QUOTES } from "../config";
 import BaseHead from "../components/BaseHead.astro";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
-import { ViewTransitions } from "astro:transitions";
+import { ClientRouter } from "astro:transitions";
 
 interface Props {
   title: string;
@@ -33,7 +33,7 @@ function getQuotes(quote: Props["quote"]) {
 <html lang="en">
   <head>
     <BaseHead {title} {description} image={heroImage} />
-    <ViewTransitions />
+    <ClientRouter />
   </head>
   <body class="bg-[#242629] text-dark-gray-200">
     <Header quote={getQuotes(quote)} />
