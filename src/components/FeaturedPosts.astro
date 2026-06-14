@@ -20,8 +20,8 @@ const featuredPost = posts
         title={post.data.title}
         desc={post.data.description}
         pubDate={post.data.pubDate}
-        href={post.slug}
-        content={post.body}
+        href={post.id}
+        content={post.body ?? ""}
       />
     ))
   }
