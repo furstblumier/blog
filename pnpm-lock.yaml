@@ -25,7 +25,7 @@ importers:
         version: 3.7.3
       '@fontsource-variable/montserrat':
         specifier: ^5.2.5
-        version: 5.2.8
+        version: 5.3.0
       '@iconify-json/cib':
         specifier: ^1.2.2
         version: 1.2.3
@@ -542,8 +542,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@fontsource-variable/montserrat@5.2.8':
-    resolution: {integrity: sha512-d8wykq7GCKhEOlLwEuQIOK3w3qsXNxwDlH0meru4AZZzQ4/+rZyvHWKL6BBtHdmbovSHEEQDkwkD8qYUKlcFtQ==}
+  '@fontsource-variable/montserrat@5.3.0':
+    resolution: {integrity: sha512-7PaZoxaxrWLAyrhO46v65An9LhUhfkTExWLhfbywYZCnZEgg/W1rEHnlNmZKjNZ3nJTVYyicqxlJt10z/26yTA==}
 
   '@iconify-json/cib@1.2.3':
     resolution: {integrity: sha512-MMvRXVTHt82z3bYN19JDAjv/X8OBNC/1B3I334SV/1nyhdPeeyvJZVoI1cGuNqYznBjMnWxKPtIhhiVgGQ1CzQ==}
@@ -3351,7 +3351,7 @@ snapshots:
   '@esbuild/win32-x64@0.28.1':
     optional: true
 
-  '@fontsource-variable/montserrat@5.2.8': {}
+  '@fontsource-variable/montserrat@5.3.0': {}
 
   '@iconify-json/cib@1.2.3':
     dependencies:
